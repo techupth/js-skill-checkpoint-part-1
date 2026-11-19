@@ -5,3 +5,6 @@ const inventory = [
   { name: "Orange", price: 30, quantity: 60 },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+let mininventory = inventory.Math.min(inventory.quantity)
+
+console.log (mininventory)
